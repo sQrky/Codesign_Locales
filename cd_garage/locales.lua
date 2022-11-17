@@ -161,6 +161,7 @@ Locales = {
         ['privategarage_not_found'] = 'Private garage not found',
         ['vehicle_not_locked'] = 'This vehicle is not locked',
         ['lockpicking_failed'] = 'Lockpicking failed',
+        ['cant_transfergarage_same_garage'] = 'Can\'t transfer to same garage',
     },
 
     ['CZ'] = { --czech
@@ -325,6 +326,7 @@ Locales = {
         ['privategarage_not_found'] = 'Private garage not found',
         ['vehicle_not_locked'] = 'This vehicle is not locked',
         ['lockpicking_failed'] = 'Lockpicking failed',
+        ['cant_transfergarage_same_garage'] = 'Can\'t transfer to same garage',
     },
 
     ['DE'] = { --german
@@ -478,6 +480,7 @@ Locales = {
         ['privategarage_not_found'] = 'Private garage not found',
         ['vehicle_not_locked'] = 'This vehicle is not locked',
         ['lockpicking_failed'] = 'Lockpicking failed',
+        ['cant_transfergarage_same_garage'] = 'Can\'t transfer to same garage',
     },
     
     ['ES'] = { --spanish
@@ -640,6 +643,7 @@ Locales = {
         ['privategarage_not_found'] = 'Garaje privado no encontrado',
         ['vehicle_not_locked'] = 'Este vehículo no está bloqueado',
         ['lockpicking_failed'] = 'Punteo fallido',
+        ['cant_transfergarage_same_garage'] = 'Can\'t transfer to same garage',
     },
 
     ['FI'] = { --finnish
@@ -804,6 +808,7 @@ Locales = {
         ['privategarage_not_found'] = 'Private garage not found',
         ['vehicle_not_locked'] = 'This vehicle is not locked',
         ['lockpicking_failed'] = 'Lockpicking failed',
+        ['cant_transfergarage_same_garage'] = 'Can\'t transfer to same garage',
     },
 
     ['FR'] = { --french
@@ -968,6 +973,7 @@ Locales = {
         ['privategarage_not_found'] = 'Private garage not found',
         ['vehicle_not_locked'] = 'This vehicle is not locked',
         ['lockpicking_failed'] = 'Lockpicking failed',
+        ['cant_transfergarage_same_garage'] = 'Can\'t transfer to same garage',
     },
 
     ['NL'] = { --dutch
@@ -1132,6 +1138,7 @@ Locales = {
         ['privategarage_not_found'] = 'Private garage not found',
         ['vehicle_not_locked'] = 'This vehicle is not locked',
         ['lockpicking_failed'] = 'Lockpicking failed',
+        ['cant_transfergarage_same_garage'] = 'Can\'t transfer to same garage',
     },
 
     ['PT'] = { --portuguese
@@ -1296,6 +1303,7 @@ Locales = {
         ['privategarage_not_found'] = 'Private garage not found',
         ['vehicle_not_locked'] = 'This vehicle is not locked',
         ['lockpicking_failed'] = 'Lockpicking failed',
+        ['cant_transfergarage_same_garage'] = 'Can\'t transfer to same garage',
     },
 
     ['SE'] = { --swedish
@@ -1460,6 +1468,7 @@ Locales = {
         ['privategarage_not_found'] = 'Private garage not found',
         ['vehicle_not_locked'] = 'This vehicle is not locked',
         ['lockpicking_failed'] = 'Lockpicking failed',
+        ['cant_transfergarage_same_garage'] = 'Can\'t transfer to same garage',
     },
 
     ['SK'] = { --slovak
@@ -1624,5 +1633,6 @@ Locales = {
         ['privategarage_not_found'] = 'Private garage not found',
         ['vehicle_not_locked'] = 'This vehicle is not locked',
         ['lockpicking_failed'] = 'Lockpicking failed',
+        ['cant_transfergarage_same_garage'] = 'Can\'t transfer to same garage',
     },
 }
