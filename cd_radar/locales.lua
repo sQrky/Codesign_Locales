@@ -44,4 +44,3 @@ Locales = {
         ['no_notes'] = 'Pas de notes',
     },
 }
-}
