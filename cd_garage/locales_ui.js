@@ -1,5 +1,5 @@
 // In case of wanting to use less memory, delete ones you do not need :)
-const LOCALE = "EN"; // EN / DE / CZ / ES / PT / RS / CUSTOM
+const LOCALE = "EN"; // EN / DE / CZ / ES / PT / RS / FR / CUSTOM
 const DIST_UNIT = "KM";
 const LOCALES = {
   EN: {
@@ -483,6 +483,76 @@ const LOCALES = {
     KEYS_FOOTER: ["Total of ", " keys"],
 
     ACTIONBAR_TEXT: ["You have", "chance(s) left."]
+  },
+  FR: {
+    LOADING: "Chargement...",
+
+    FINANCE_BUTTON: "Financer",
+    FINANCE_TITLE: "Financer le véhicule",
+    FINANCE_LEFT: "Financement restant : ",
+    FINANCE_LAST_PAYMENT: "Dernier paiement : ",
+    FINANCE_NEXT_PAYMENT: "Prochain paiement : ",
+    FINANCE_ACTION: "Payer",
+    FINANCE_DESCRIPTION:
+      "Input the amount of money you wish to put towards vehicle finance.",
+    FINANCE_SUBMIT: "Soumettre",
+    FINANCE_CLOSE: "Fermer",
+    FINANCE_LESS_THAN_ZERO: "Vous ne pouvez pas financer moins de 0$.",
+    FINANCE_INVALID_AMMOUNT: "Vous devez renseigner un montant valide.",
+
+    TRANSFER_BUTTON: "Transférer",
+    TRANSFER_TITLE: "Transférer le véhicule",
+    TRANSFER_TO: "Transférer à",
+    TRANSFER_DESCRIPTION:
+      "Renseigner l'ID du joueur ciblé",
+    TRANSFER_SUBMIT: "Soumettre",
+    TRANSFER_CLOSE: "Fermer",
+    TRANSFER_INVALID_ID: "ID du joueur invalide.",
+
+    IMPOUND_CIV_NOTIFICATION: "Sortir un véhicule coûte $500.",
+    IMPOUND_SELECT: "Selectionner une fourrière",
+    IMPOUND_SPAWN: "Spawn vehicule",
+    IMPOUND_RETURN: "Retourner au propriétaire",
+    IMPOUND_NOTIFICATION: "Ce véhicule ne peut être sorti que par une personne habilité",
+    IMPOUND_TIME: "heure(s)",
+
+    OUTSIDE_TAKEOUT: "Sortir",
+    OUTSIDE_RETURN: "Rapatrier pour $",
+    OUTSIDE_ENGINE: "Moteur",
+    OUTSIDE_FUEL: "Essence",
+    OUTSIDE_BODY: "Carrosserie",
+    OUTSIDE_IMPOUND_NO_VEHICLES: "Il n'y a aucun véhicule dans cette fourrière.",
+    OUTSIDE_NO_VEHICLES: "Vous n'avez aucun véhicule.",
+    OUTSIDE_SEARCH_PLACEHOLDER: "Recherche le véhicule par nom, garage ou immatriculation",
+    OUTSIDE_TOTAL_VEHICLES: "Véhicules garés : ",
+
+    INSIDE_UPGRADES: "Améliorations du véhicule",
+    INSIDE_UPGRADES_ENGINE: "Moteur",
+    INSIDE_UPGRADES_BRAKES: "Frein",
+    INSIDE_UPGRADES_SUSPENSION: "Suspension",
+    INSIDE_UPGRADES_TRANSMISSION: "Transmission",
+    INSIDE_UPGRADES_TURBO: "Turbo",
+    INSIDE_STATS: "Etat du véhicule",
+    INSIDE_STATS_HANDLING: "Handling",
+    INSIDE_STATS_ACCELERATION: "Acceleration",
+    INSIDE_STATS_BRAKES: "Freins",
+    INSIDE_STATS_BODY: "Etat de la carrosserie",
+    INSIDE_STATS_ENGINE: "Etat du moteur",
+    INSIDE_STATS_FUEL: "Niveau du réservoir",
+    INSIDE_STATS_SPEED: "Vitesse",
+    INSIDE_STATS_SCORE: "Performance globale",
+    INSIDE_STATS_SCORE_TEXT: " SCORE",
+
+    SEARCH_BUTTON: "Rechercher",
+
+    CURRENCY_SYMBOL: "$",
+
+    KEYS_NO_KEYS: "Vous n'avez donné aucune clé.",
+    KEYS_REMOVE: "Récuperer les clés",
+    KEYS_SEARCH: "Nom ou Immatriculation",
+    KEYS_FOOTER: ["Total de ", " clés"],
+
+    ACTIONBAR_TEXT: ["Vous avez", "essai(s) restant(s)."]
   },
   CUSTOM: {
     LOADING: "",
