@@ -28,4 +28,20 @@ Locales = {
         ['bot_name'] = 'Politie Radar Logs',
         ['veh_owners_name'] = 'Voertuig eigenaar opzoeken: %s. Naar klembord gekopieërd',
     },
+    ['FR'] = { --french
+        ['saving_cached_data'] = 'Sauvegarde des données, merci de patienter....',
+        ['cached_data_saved'] = 'Données sauvegardées.',
+        ['unknown'] = 'Inconnu',
+        ['vehicle'] = 'Véhicule',
+        ['bolo'] = 'BOLO',
+        ['marker'] = 'Marqueur',
+        ['add'] = 'Ajouter',
+        ['remove'] = 'Retirer',
+        ['edit'] = 'Editer',
+        ['webhook_message'] = '**Player Info**\nSource: %s\nPlayer Name: %s\nCharacter Name: **%s**\nIdentifier: %s\n\n**Vehicle Info**\nPlate: **%s**\nModel: %s\nColour: %s\nReason: %s\nNotes: %s',
+        ['bot_name'] = 'Police Radar Logs',
+        ['veh_owners_name'] = 'Identité du propriétaire: %s. Copié dans votre presse-papiers',
+        ['no_notes'] = 'Pas de notes',
+    },
+}
 }
