@@ -8,4 +8,13 @@ Locales = {
         ['you'] = 'You',
         ['opponent'] = 'Opponent',
     },
+    ['NL'] = { --english
+        ['command_startgame'] = 'Start een darts spel',
+        ['command_giveup'] = 'Geef je huidige dartsspel op',
+        ['command_createboard'] = 'Creeër en plaats een dartbord',
+        ['command_deleteboard'] = 'Verwijderd je huidige dartbord',
+        ['item_missing'] = 'Je ontbreekt het huidige dartboard voorwerp',
+        ['you'] = 'Jij',
+        ['opponent'] = 'Tegenstander',
+    },
 }

@@ -6,4 +6,8 @@ Locales = {
         ['livery_distance_check'] = 'You can only change liveries at set locations. A waypoint has been set on your map',
         ['extras_distance_check'] = 'You can only change extras at set locations. A waypoint has been set on your map',
     },
+    ['NL'] = { --english
+    ['not_in_vehicle'] = 'Je bent niet in een voertuig',
+    ['blacklisted_vehclass'] = 'Dit type voertuig kan de gebruikserinterface voor voertuigen niet gebruiken',
+},
 }
