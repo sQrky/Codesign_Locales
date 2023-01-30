@@ -17,6 +17,15 @@ Locales = {
         ['remove_full_locationgroup'] = 'Removed Full Location Group Doors',
         ['bot_name'] = 'Doorlock',
         ['waypoint_set'] = 'Waypoint Set',
+        ['command_opendoormenu'] = 'Open door lock UI',
+        ['command_toggledoorlock'] = 'Toogle door lock',
+        ['drawtextui_door_locked'] = '<b>Locked</b></p> Press <kbd>E</kbd> to unlock',
+        ['drawtextui_door_unlocked'] = '<b>Unlocked</b></p> Press <kbd>E</kbd> to lock',   
+        ['draw3dtext_door_locked'] = 'Press [E] to unlock',
+        ['draw3dtext_door_unlocked'] = 'Press [E] to lock',
+        ['emoji_door_locked'] = '🔒',
+        ['emoji_door_unlocked'] = '🔓',
+        
     },
     
     ['DE'] = { --german
@@ -39,5 +48,11 @@ Locales = {
         ['waypoint_set'] = 'Wegpunkt gesetzt',
         ['command_opendoormenu'] = 'Öffne Türschloss UI',
         ['command_toggledoorlock'] = 'Benutze Türschloss',
+        ['drawtextui_door_locked'] = '<b>Locked</b></p> Press <kbd>E</kbd> to unlock',
+        ['drawtextui_door_unlocked'] = '<b>Unlocked</b></p> Press <kbd>E</kbd> to lock',   
+        ['draw3dtext_door_locked'] = 'Press [E] to unlock',
+        ['draw3dtext_door_unlocked'] = 'Press [E] to lock',
+        ['emoji_door_locked'] = '🔒',
+        ['emoji_door_unlocked'] = '🔓',
     },
 }
