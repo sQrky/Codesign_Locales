@@ -15,6 +15,7 @@ window.locales = {
             access: 'Manage access <i class="bi bi-person-gear"></i>',
             delete: 'Delete <i class="bi bi-trash"></i>',
             no_permissions: 'No access permissions yet.',
+            copy: 'Copy camera ID <i class="bi bi-clipboard-check-fill"></i>'
         },
 
         create: {
@@ -33,16 +34,26 @@ window.locales = {
         manage: 'Manage access - ',
         add: "Add",
 
-        player: "Player Identifier (Server ID)",
         player_placeholder: "Input the player identifier (Server ID)",
         player_description: "Input the Player ID (Server ID) of the person which will have access to the CCTV camera.",
 
-        job: "Job",
+
         job_placeholder:"Example: police",
-        job_description: "Select a job from the list which will be allowed to use the CCTV camera.",
+        job_description: "Input a job which will be allowed to use the CCTV camera.",
+
+        ace_placeholder: "Example: cctv.police",
+        ace_description: "Input the Ace permission which is required for people to use this camera.",
+
+        discord_placeholder:"758730794041737217",
+        discord_description: "The Discord role which will have access to use the CCTV camera.",
 
         update_button: "Update",
-        cancel_button: "Cancel"
+        cancel_button: "Cancel",
+
+        Framework: "Jobs/gangs",
+        Identifier: "Identifier",
+        AcePerms: "Ace",
+        Discord: "Discord"
     },
 
     modal: {
@@ -51,7 +62,10 @@ window.locales = {
         decline: "Decline" 
     },
 
-
+    delete: {
+        message: "By confirming the camera will be deleted",
+        camera_name: "Camera name:"
+    },
 
     placement: {
         place: "<kbd>E</kbd> - Place camera,",
@@ -60,6 +74,6 @@ window.locales = {
     },
 
     footer:{
-        text: `CCTV 1.0.0 - Codesign &copy; ${new Date().getFullYear()}`
+        text: `CCTV 1.0.0 - Codesign © ${new Date().getFullYear()}`
     }
 }
