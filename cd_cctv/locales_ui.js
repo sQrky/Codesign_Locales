@@ -2,13 +2,22 @@ window.locales = {
     navigation: {
         title: "CCTV System",
         search: "Search",
-        search_placeholder: "Search"
+        search_placeholder: "Search",
+
+        hide: "Hide",
+        show: "Show",
+        selected: "select option",
+
+        manage_selected: "Manage selected",
+        view_selected: "View selected",
     },
 
     camera: {
         move: "Move - Mouse move",
         zoom: "Zoom - Scroll",
         exit: "Exit - Right click",
+        left: "Previous - Left Arrow",
+        right: "Next - Right Arrow",
 
         list : {
             view: 'View <i class="bi bi-eye-fill"></i>',
@@ -27,13 +36,26 @@ window.locales = {
             cancel_button: "Cancel",
 
             alert: "This camera name already exists."
-        }
+        },
+
+        tooltips: {
+            full: "360 Degree view",
+            half: "180 Degree view",
+            fixed: "Fixed view",
+
+            breakable: "This camera is breakable"
+        },
+
+        no_cameras: "No cameras"
     },
 
     access:{
         manage: 'Manage access - ',
         add: "Add",
 
+        managing_multiple: "Managing multiple cameras",
+        multiple_warning: "Updating multiple CCTV cameras will override their pervious permissions.",
+        
         player_placeholder: "Input the player identifier (Server ID)",
         player_description: "Input the Player ID (Server ID) of the person which will have access to the CCTV camera.",
 
@@ -53,13 +75,14 @@ window.locales = {
         Framework: "Jobs/gangs",
         Identifier: "Identifier",
         AcePerms: "Ace",
-        Discord: "Discord"
+        Discord: "Discord",
     },
 
     modal: {
         cancel: "Cancel",
         confirm: "Confirm",
-        decline: "Decline" 
+        decline: "Decline",
+        notification: "Are you sure you want to delete this camera?" 
     },
 
     delete: {
