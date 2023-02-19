@@ -1,6 +1,7 @@
 window['locales'] = {
     "footer_controls":"Controls",
     "footer_el":"Extras & Liveries",
+    "footer_lights":"Lights",
     "footer_settings":"Settings",
     "footer_close":"Close",
 
@@ -10,7 +11,11 @@ window['locales'] = {
     "engine_start":"START",
     "engine_stop":"STOP",
 
-    "el_none":"There are no liveries and extras.",
+    "el_none":["There are no", "liveries", "and", "extras"],
+    "extras":"Extras",
+    "liveries":"Liveries",
+    
+    "n_none":["There are no", "neon lights", "and", "indicators"],
     "extras_alert":"Extras are known to work improperly on certain vehicles.",
 
     "settings":"Settings",
