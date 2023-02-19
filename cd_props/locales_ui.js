@@ -1,4 +1,4 @@
 let locale = {
-  single: "Take single",
-  multiple: "Take multiple"
+    single: "Take single",
+    multiple: "Take multiple"
 }
