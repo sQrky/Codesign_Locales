@@ -55,6 +55,20 @@ Locales = {
         ['remind_settings'] = 'Drücke %s, um die Benutzeroberfläche der Einstellungen zu öffnen und die Car HUD anzupassen',
     },
 
+    ['DK'] = { --danish
+        ['settings_description'] = 'Åbn brugergrænsefladen for bil-hud-indstillinger',
+        ['seatbelt_description'] = 'Skift din sikkerhedssele',
+        ['cruise_description'] = 'Skift fartpilot',
+        ['togglecarhud_description'] = 'Skift bilens hud UI',
+        ['seatbelt_on'] = 'Sikkerhedssele aktiveret',
+        ['seatbelt_off'] = 'Sikkerhedssele deaktiveret',
+        ['no_seatbelt'] = 'Dette køretøj har ikke en sikkerhedssele',
+        ['cruisecontrol_on'] = 'Cruisecontrol aktiveret',
+        ['cruisecontrol_off'] = 'Cruisecontrol deaktiveret',
+        ['no_vehicle_found'] = 'Du er ikke i et køretøj',
+        ['remind_settings'] = 'Tryk på %s for at åbne indstillings-UI for at tilpasse din bil HUD',
+    },
+
     ['ES'] = { --spanish
         ['settings_description'] = 'Abra la interfaz de usuario de configuración de Car Hud',
         ['seatbelt_description'] = 'Cambia tu cinturón de seguridad',
