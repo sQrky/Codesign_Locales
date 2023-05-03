@@ -1,6 +1,5 @@
 Locales = { 
     ['EN'] = { --english
-        ['saving_cached_data'] = 'Saving all cached data please wait....',
         ['cached_data_saved'] = 'Saved all cached data.',
         ['unknown'] = 'Unknown',
         ['vehicle'] = 'Vehicle',
@@ -21,7 +20,6 @@ Locales = {
     },
 
     ['DK'] = { --danish
-        ['saving_cached_data'] = 'Gem alle cachelagrede data vent venligst...',
         ['cached_data_saved'] = 'Gem alle cachelagrede data.',
         ['unknown'] = 'Ukendt',
         ['vehicle'] = 'Køretøj',
@@ -42,7 +40,6 @@ Locales = {
     },
 
     ['FR'] = { --french
-        ['saving_cached_data'] = 'Sauvegarde des données, merci de patienter....',
         ['cached_data_saved'] = 'Données sauvegardées.',
         ['unknown'] = 'Inconnu',
         ['vehicle'] = 'Véhicule',
@@ -63,7 +60,6 @@ Locales = {
     },
 
     ['NL'] = { --dutch
-        ['saving_cached_data'] = 'Alle data opslaan in cache, gelieve te wachten....',
         ['cached_data_saved'] = 'Alle data opgeslagen.',
         ['unknown'] = 'Onbekend',
         ['vehicle'] = 'Voertuig',
@@ -81,5 +77,25 @@ Locales = {
         ['command_radartoggle'] = 'Toggle the police radar UI visibility',
         ['new'] = 'NEW ',
         ['dispatch_message'] = '%s has added a new %s on a %s %s %s for a %s related offense.',
+    },
+
+    ['TR'] = { --turkish
+        ['cached_data_saved'] = 'Önbelleğe alınan tüm veriler kaydedildi.',
+        ['unknown'] = 'Bilinmiyor',
+        ['vehicle'] = 'Araç',
+        ['bolo'] = 'BOLO',
+        ['marker'] = 'İŞARETLEYİCİ',
+        ['add'] = 'Ekle',
+        ['remove'] = 'Çıkar',
+        ['edit'] = 'Düzenle',
+        ['webhook_message'] = '**Oyuncu bilgisi**\nKaynak: %s\nOyuncu ismi: %s\nKarakter ismi: **%s**\nIdentifier: %s\n\n**Araç bilgisi**\nPlaka: **%s**\nModel: %s\nRenk: %s\nSebep: %s\nNot: %s',
+        ['bot_name'] = 'Polis Radar logları',
+        ['veh_owners_name'] = 'Araç sahibi arama: %s. Panonuza kopyalandı',
+        ['no_notes'] = 'Not yok',
+        ['command_radarsettings'] = 'Polis radarıyla etkileşime geçin',
+        ['command_radarlock'] = 'Polis radar kilidini aç / kapat',
+        ['command_radartoggle'] = 'Polis radarı kullanıcı arayüzü görünürlüğünü değiştir',
+        ['new'] = 'YENİ ',
+        ['dispatch_message'] = '%s %s ile ilgili bir suç için bir %s %s %s ye yeni bir %s ekledi.',
     },
 }
