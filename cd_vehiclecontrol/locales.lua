@@ -7,6 +7,14 @@ Locales = {
         ['extras_distance_check'] = 'You can only change extras at set locations. A waypoint has been set on your map',
     },
 
+    ['DE'] = { --german
+        ['chat_description'] = 'Öffne das Fahrzeugsteuerung Nutzer Interface',
+        ['not_in_vehicle'] = 'Du bist nicht in einem Fahrzeug!',
+        ['blacklisted_vehclass'] = 'Diese Art von Fahrzeug kann die Fahrzeugsteuerung UI nicht verwenden.',
+        ['livery_distance_check'] = 'Du kannst die Folierung nur an bestimmten Stellen ändern. Ein Wegpunkt wurde auf deiner Karte gesetzt.',
+        ['extras_distance_check'] = 'Du kannst Extras nur an festgelegten Orten ändern. Ein Wegpunkt wurde auf deiner Karte gesetzt',
+    },
+
     ['NL'] = { --dutch
         ['chat_description'] = 'Open the vehicle control UI',
         ['not_in_vehicle'] = 'Je bent niet in een voertuig',
