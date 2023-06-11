@@ -1,5 +1,5 @@
 // In case of wanting to use less memory, delete ones you do not need :)
-const LOCALE = "EN"; // EN / DE / CZ / ES / PT / RS / FR / CUSTOM
+const LOCALE = "EN"; // EN / CZ / DE / ES / FR / NO / PT / RS / CUSTOM
 const DIST_UNIT = "KM";
 const LOCALES = {
   EN: {
@@ -65,6 +65,74 @@ const LOCALES = {
 
     CURRENCY_SYMBOL: "$",
 
+    KEYS_NO_KEYS: "You haven't given out any keys.",
+    KEYS_REMOVE: "Remove key",
+    KEYS_SEARCH: "Name or vehicle plate",
+    KEYS_FOOTER: ["Total of ", " keys"],
+
+    ACTIONBAR_TEXT: ["You have", "chance(s) left."]
+  },
+  CZ: {
+    LOADING: "Načítání ...",
+
+    FINANCE_BUTTON: "Finance",
+    FINANCE_TITLE: "Financování vozidel",
+    FINANCE_LEFT: "Zbývající finance:",
+    FINANCE_LAST_PAYMENT: "Poslední platba:",
+    FINANCE_NEXT_PAYMENT: "Další platba:",
+    FINANCE_ACTION: "Zaplatit",
+    FINANCE_DESCRIPTION:
+      "Zadejte částku, kterou chcete dát na financování vozidel.",
+    FINANCE_SUBMIT: "Odeslat",
+    FINANCE_CLOSE: "Zavřít",
+    FINANCE_LESS_THAN_ZERO: "Nemůžete poslat méně než 0 peněz.",
+    FINANCE_INVALID_AMMOUNT: "Musíte zadat platnou částku.",
+
+    TRANSFER_BUTTON: "Převod na osobu",
+    TRANSFER_TITLE: "Převést vozidlo",
+    TRANSFER_TO: "Převést na",
+    TRANSFER_DESCRIPTION: "Zadejte ID osoby, které převádíte toto vozidlo.",
+    TRANSFER_SUBMIT: "Odeslat",
+    TRANSFER_CLOSE: "Zavřít",
+    TRANSFER_INVALID_ID: "Neplatné ID hráče.",
+
+    IMPOUND_CIV_NOTIFICATION: "Vrácení vozidla stojí 500 $.",
+    IMPOUND_SELECT: "Vyberte místo k odtáhnutí",
+    IMPOUND_SPAWN: "Vzít vozidlo z odtahovky",
+    IMPOUND_RETURN: "Přesunout do garáže vlastníkovi",
+    IMPOUND_NOTIFICATION: "This vehicle can only be returned by an officer",
+    IMPOUND_TIME: "hour(s)",
+
+    OUTSIDE_TAKEOUT: "Vyparkovat",
+    OUTSIDE_RETURN: "Návrat za $",
+    OUTSIDE_ENGINE: "Motor",
+    OUTSIDE_FUEL: "Palivo",
+    OUTSIDE_BODY: "Karoserie",
+    OUTSIDE_IMPOUND_NO_VEHICLES: "Na této odtahovce nejsou vozidla",
+    OUTSIDE_NO_VEHICLES: "Nemáte žádná vozidla.",
+    OUTSIDE_SEARCH_PLACEHOLDER:
+      "Hledejte vozidla podle štítku, jména nebo garáže",
+    OUTSIDE_TOTAL_VEHICLES: "Celkem vozidel: ",
+
+    INSIDE_UPGRADES: "Vylepšení vozidla",
+    INSIDE_UPGRADES_ENGINE: "Motor",
+    INSIDE_UPGRADES_BRAKES: "Brzdy",
+    INSIDE_UPGRADES_SUSPENSION: "Snížení",
+    INSIDE_UPGRADES_TRANSMISSION: "Převodovka",
+    INSIDE_UPGRADES_TURBO: "Turbo",
+    INSIDE_STATS: "Statistiky a zdraví vozidel",
+    INSIDE_STATS_HANDLING: "Zpracování",
+    INSIDE_STATS_ACCELERATION: "Zrychlení",
+    INSIDE_STATS_BRAKES: "Brzdy",
+    INSIDE_STATS_BODY: "Zdraví těla",
+    INSIDE_STATS_ENGINE: "Stav motoru",
+    INSIDE_STATS_FUEL: "Hladina paliva",
+    INSIDE_STATS_SPEED: "Rychlost",
+    INSIDE_STATS_SCORE: "Celkové skóre",
+
+    SEARCH_BUTTON: "Vyhledávání",
+
+    CURRENCY_SYMBOL: "$",
     KEYS_NO_KEYS: "You haven't given out any keys.",
     KEYS_REMOVE: "Remove key",
     KEYS_SEARCH: "Name or vehicle plate",
@@ -141,140 +209,6 @@ const LOCALES = {
 
     ACTIONBAR_TEXT: ["You have", "chance(s) left."]
   },
-  CZ: {
-    LOADING: "Načítání ...",
-
-    FINANCE_BUTTON: "Finance",
-    FINANCE_TITLE: "Financování vozidel",
-    FINANCE_LEFT: "Zbývající finance:",
-    FINANCE_LAST_PAYMENT: "Poslední platba:",
-    FINANCE_NEXT_PAYMENT: "Další platba:",
-    FINANCE_ACTION: "Zaplatit",
-    FINANCE_DESCRIPTION:
-      "Zadejte částku, kterou chcete dát na financování vozidel.",
-    FINANCE_SUBMIT: "Odeslat",
-    FINANCE_CLOSE: "Zavřít",
-    FINANCE_LESS_THAN_ZERO: "Nemůžete poslat méně než 0 peněz.",
-    FINANCE_INVALID_AMMOUNT: "Musíte zadat platnou částku.",
-
-    TRANSFER_BUTTON: "Převod na osobu",
-    TRANSFER_TITLE: "Převést vozidlo",
-    TRANSFER_TO: "Převést na",
-    TRANSFER_DESCRIPTION: "Zadejte ID osoby, které převádíte toto vozidlo.",
-    TRANSFER_SUBMIT: "Odeslat",
-    TRANSFER_CLOSE: "Zavřít",
-    TRANSFER_INVALID_ID: "Neplatné ID hráče.",
-
-    IMPOUND_CIV_NOTIFICATION: "Vrácení vozidla stojí 500 $.",
-    IMPOUND_SELECT: "Vyberte místo k odtáhnutí",
-    IMPOUND_SPAWN: "Vzít vozidlo z odtahovky",
-    IMPOUND_RETURN: "Přesunout do garáže vlastníkovi",
-    IMPOUND_NOTIFICATION: "This vehicle can only be returned by an officer",
-    IMPOUND_TIME: "hour(s)",
-
-    OUTSIDE_TAKEOUT: "Vyparkovat",
-    OUTSIDE_RETURN: "Návrat za $",
-    OUTSIDE_ENGINE: "Motor",
-    OUTSIDE_FUEL: "Palivo",
-    OUTSIDE_BODY: "Karoserie",
-    OUTSIDE_IMPOUND_NO_VEHICLES: "Na této odtahovce nejsou vozidla",
-    OUTSIDE_NO_VEHICLES: "Nemáte žádná vozidla.",
-    OUTSIDE_SEARCH_PLACEHOLDER:
-      "Hledejte vozidla podle štítku, jména nebo garáže",
-    OUTSIDE_TOTAL_VEHICLES: "Celkem vozidel: ",
-
-    INSIDE_UPGRADES: "Vylepšení vozidla",
-    INSIDE_UPGRADES_ENGINE: "Motor",
-    INSIDE_UPGRADES_BRAKES: "Brzdy",
-    INSIDE_UPGRADES_SUSPENSION: "Snížení",
-    INSIDE_UPGRADES_TRANSMISSION: "Převodovka",
-    INSIDE_UPGRADES_TURBO: "Turbo",
-    INSIDE_STATS: "Statistiky a zdraví vozidel",
-    INSIDE_STATS_HANDLING: "Zpracování",
-    INSIDE_STATS_ACCELERATION: "Zrychlení",
-    INSIDE_STATS_BRAKES: "Brzdy",
-    INSIDE_STATS_BODY: "Zdraví těla",
-    INSIDE_STATS_ENGINE: "Stav motoru",
-    INSIDE_STATS_FUEL: "Hladina paliva",
-    INSIDE_STATS_SPEED: "Rychlost",
-    INSIDE_STATS_SCORE: "Celkové skóre",
-
-    SEARCH_BUTTON: "Vyhledávání",
-
-    CURRENCY_SYMBOL: "$",
-    KEYS_NO_KEYS: "You haven't given out any keys.",
-    KEYS_REMOVE: "Remove key",
-    KEYS_SEARCH: "Name or vehicle plate",
-    KEYS_FOOTER: ["Total of ", " keys"],
-
-    ACTIONBAR_TEXT: ["You have", "chance(s) left."]
-  },
-  RO: {
-    LOADING: "Loading...",
-
-    FINANCE_BUTTON: "Finance",
-    FINANCE_TITLE: "Finance vehicle",
-    FINANCE_LEFT: "Finance left: ",
-    FINANCE_LAST_PAYMENT: "Last payment: ",
-    FINANCE_NEXT_PAYMENT: "Next payment: ",
-    FINANCE_ACTION: "Pay",
-    FINANCE_DESCRIPTION:
-      "Input the amount of money you wish to put towards vehicle finance.",
-    FINANCE_SUBMIT: "Submit",
-    FINANCE_CLOSE: "Close",
-    FINANCE_LESS_THAN_ZERO: "You cannot send less than 0 money.",
-    FINANCE_INVALID_AMMOUNT: "You need to enter a valid amount.",
-
-    TRANSFER_BUTTON: "Transfera",
-    TRANSFER_TITLE: "Transfera Vehicul",
-    TRANSFER_TO: "Transfera catre",
-    TRANSFER_DESCRIPTION:
-      "Introdu ID-ul persoanei careia ii tranferi acest vehicul.",
-    TRANSFER_SUBMIT: "Afirma",
-    TRANSFER_CLOSE: "Inchide",
-    TRANSFER_INVALID_ID: "ID-ul jucatorului este invalid.",
-
-    IMPOUND_CIV_NOTIFICATION: "Taking out a vehicle costs $500.",
-    IMPOUND_SELECT: "Select an impound",
-    IMPOUND_SPAWN: "Spawn vehicle",
-    IMPOUND_RETURN: "Return to owner",
-    IMPOUND_NOTIFICATION: "This vehicle can only be returned by an officer",
-    IMPOUND_TIME: "hour(s)",
-
-    OUTSIDE_TAKEOUT: "Scoate",
-    OUTSIDE_RETURN: "Returneaza pentru $",
-    OUTSIDE_ENGINE: "Motor",
-    OUTSIDE_FUEL: "Carburant",
-    OUTSIDE_BODY: "Caroserie",
-    OUTSIDE_IMPOUND_NO_VEHICLES: "Nu sunt vehicule confiscate.",
-    OUTSIDE_NO_VEHICLES: "Nu ai nici un vehicul.",
-
-    INSIDE_UPGRADES: "Vehicle upgrades",
-    INSIDE_UPGRADES_ENGINE: "Engine",
-    INSIDE_UPGRADES_BRAKES: "Brakes",
-    INSIDE_UPGRADES_SUSPENSION: "Suspension",
-    INSIDE_UPGRADES_TRANSMISSION: "Transmission",
-    INSIDE_UPGRADES_TURBO: "Turbo",
-    INSIDE_STATS: "Vehicle statistics & health",
-    INSIDE_STATS_HANDLING: "Handling",
-    INSIDE_STATS_ACCELERATION: "Acceleration",
-    INSIDE_STATS_BRAKES: "Brakes",
-    INSIDE_STATS_BODY: "Body health",
-    INSIDE_STATS_ENGINE: "Engine health",
-    INSIDE_STATS_FUEL: "Fuel level",
-    INSIDE_STATS_SPEED: "Speed",
-    INSIDE_STATS_SCORE: "Overall score",
-    INSIDE_STATS_SCORE_TEXT: " SCORE",
-
-    SEARCH_BUTTON: "Căutare",
-
-    CURRENCY_SYMBOL: "$",
-    KEYS_NO_KEYS: "You haven't given out any keys.",
-    KEYS_REMOVE: "Remove key",
-    KEYS_SEARCH: "Name or vehicle plate",
-    KEYS_FOOTER: ["Total of ", " keys"],
-    ACTIONBAR_TEXT: ["You have", "chance(s) left."]
-  },
   ES: {
     LOADING: "Cargando ...",
 
@@ -343,6 +277,212 @@ const LOCALES = {
     KEYS_SEARCH: "Name or vehicle plate",
     KEYS_FOOTER: ["Total of ", " keys"],
 
+    ACTIONBAR_TEXT: ["You have", "chance(s) left."]
+  },
+  FR: {
+    LOADING: "Chargement...",
+
+    FINANCE_BUTTON: "Financer",
+    FINANCE_TITLE: "Financer le véhicule",
+    FINANCE_LEFT: "Financement restant : ",
+    FINANCE_LAST_PAYMENT: "Dernier paiement : ",
+    FINANCE_NEXT_PAYMENT: "Prochain paiement : ",
+    FINANCE_ACTION: "Payer",
+    FINANCE_DESCRIPTION:
+      "Input the amount of money you wish to put towards vehicle finance.",
+    FINANCE_SUBMIT: "Soumettre",
+    FINANCE_CLOSE: "Fermer",
+    FINANCE_LESS_THAN_ZERO: "Vous ne pouvez pas financer moins de 0$.",
+    FINANCE_INVALID_AMMOUNT: "Vous devez renseigner un montant valide.",
+
+    TRANSFER_BUTTON: "Transférer",
+    TRANSFER_TITLE: "Transférer le véhicule",
+    TRANSFER_TO: "Transférer à",
+    TRANSFER_DESCRIPTION:
+      "Renseigner l'ID du joueur ciblé",
+    TRANSFER_SUBMIT: "Soumettre",
+    TRANSFER_CLOSE: "Fermer",
+    TRANSFER_INVALID_ID: "ID du joueur invalide.",
+
+    IMPOUND_CIV_NOTIFICATION: "Sortir un véhicule coûte $500.",
+    IMPOUND_SELECT: "Selectionner une fourrière",
+    IMPOUND_SPAWN: "Spawn vehicule",
+    IMPOUND_RETURN: "Retourner au propriétaire",
+    IMPOUND_NOTIFICATION: "Ce véhicule ne peut être sorti que par une personne habilité",
+    IMPOUND_TIME: "heure(s)",
+
+    OUTSIDE_TAKEOUT: "Sortir",
+    OUTSIDE_RETURN: "Rapatrier pour $",
+    OUTSIDE_ENGINE: "Moteur",
+    OUTSIDE_FUEL: "Essence",
+    OUTSIDE_BODY: "Carrosserie",
+    OUTSIDE_IMPOUND_NO_VEHICLES: "Il n'y a aucun véhicule dans cette fourrière.",
+    OUTSIDE_NO_VEHICLES: "Vous n'avez aucun véhicule.",
+    OUTSIDE_SEARCH_PLACEHOLDER: "Recherche le véhicule par nom, garage ou immatriculation",
+    OUTSIDE_TOTAL_VEHICLES: "Véhicules garés : ",
+
+    INSIDE_UPGRADES: "Améliorations du véhicule",
+    INSIDE_UPGRADES_ENGINE: "Moteur",
+    INSIDE_UPGRADES_BRAKES: "Frein",
+    INSIDE_UPGRADES_SUSPENSION: "Suspension",
+    INSIDE_UPGRADES_TRANSMISSION: "Transmission",
+    INSIDE_UPGRADES_TURBO: "Turbo",
+    INSIDE_STATS: "Etat du véhicule",
+    INSIDE_STATS_HANDLING: "Handling",
+    INSIDE_STATS_ACCELERATION: "Acceleration",
+    INSIDE_STATS_BRAKES: "Freins",
+    INSIDE_STATS_BODY: "Etat de la carrosserie",
+    INSIDE_STATS_ENGINE: "Etat du moteur",
+    INSIDE_STATS_FUEL: "Niveau du réservoir",
+    INSIDE_STATS_SPEED: "Vitesse",
+    INSIDE_STATS_SCORE: "Performance globale",
+    INSIDE_STATS_SCORE_TEXT: " SCORE",
+
+    SEARCH_BUTTON: "Rechercher",
+
+    CURRENCY_SYMBOL: "$",
+
+    KEYS_NO_KEYS: "Vous n'avez donné aucune clé.",
+    KEYS_REMOVE: "Récuperer les clés",
+    KEYS_SEARCH: "Nom ou Immatriculation",
+    KEYS_FOOTER: ["Total de ", " clés"],
+
+    ACTIONBAR_TEXT: ["Vous avez", "essai(s) restant(s)."]
+  },
+  NO: {
+    LOADING: "Laster...",
+
+    FINANCE_BUTTON: "Finans",
+    FINANCE_TITLE: "Finansbil",
+    FINANCE_LEFT: "Økonomi igjen: ",
+    FINANCE_LAST_PAYMENT: "Siste betaling: ",
+    FINANCE_NEXT_PAYMENT: "Neste betaling: ",
+    FINANCE_ACTION: "Betal",
+    FINANCE_DESCRIPTION:
+      "Skriv inn hvor mye penger du ønsker å bruke til kjøretøyfinansiering.",
+    FINANCE_SUBMIT: "Send inn",
+    FINANCE_CLOSE: "Lukk",
+    FINANCE_LESS_THAN_ZERO: "Du kan ikke sende mindre enn 0 penger.",
+    FINANCE_INVALID_AMMOUNT: "Du må angi et gyldig beløp.",
+
+    TRANSFER_BUTTON: "Overfør",
+    TRANSFER_TITLE: "Overfør kjøretøy",
+    TRANSFER_TO: "Overfør til",
+    TRANSFER_DESCRIPTION:
+      "Skriv inn ID-en til personen du overfører dette kjøretøyet til.",
+    TRANSFER_SUBMIT: "Send inn",
+    TRANSFER_CLOSE: "Lukk",
+    TRANSFER_INVALID_ID: "Ugyldig spiller-ID.",
+
+    IMPOUND_CIV_NOTIFICATION: "Å ta ut et kjøretøy koster kr 5000.",
+    IMPOUND_SELECT: "Velg inntauing",
+    IMPOUND_SPAWN: "Spawn kjøretøy",
+    IMPOUND_RETURN: "Tilbake til eier",
+    IMPOUND_NOTIFICATION: "Dette kjøretøyet kan bare returneres av en betjent",
+    IMPOUND_TIME: "time(r)",
+
+    OUTSIDE_TAKEOUT: "Ta ut",
+    OUTSIDE_RETURN: "Retur for kr",
+    OUTSIDE_ENGINE: "Motor",
+    OUTSIDE_FUEL: "Drivstoff",
+    OUTSIDE_BODY: "Karosseri",
+    OUTSIDE_IMPOUND_NO_VEHICLES: "Det er ingen kjøretøy på denne inntauingstomta.",
+    OUTSIDE_NO_VEHICLES: "Du har ingen kjøretøy.",
+    OUTSIDE_SEARCH_PLACEHOLDER: "Søk i kjøretøyene etter skilt, navn eller garasje",
+    OUTSIDE_TOTAL_VEHICLES: "Totalt kjøretøy: ",
+
+    INSIDE_UPGRADES: "Kjøretøyoppgraderinger",
+    INSIDE_UPGRADES_ENGINE: "Motor",
+    INSIDE_UPGRADES_BRAKES: "Bremser",
+    INSIDE_UPGRADES_SUSPENSION: "Oppheng",
+    INSIDE_UPGRADES_TRANSMISSION: "Girkasse",
+    INSIDE_UPGRADES_TURBO: "Turbo",
+    INSIDE_STATS: "Kjøretøysstatistikk og helse",
+    INSIDE_STATS_HANDLING: "Håndtering",
+    INSIDE_STATS_ACCELERATION: "Acceleration",
+    INSIDE_STATS_BRAKES: "Bremser",
+    INSIDE_STATS_BODY: "Karosserihelse",
+    INSIDE_STATS_ENGINE: "Motorhelse",
+    INSIDE_STATS_FUEL: "Drivstoffnivå",
+    INSIDE_STATS_SPEED: "Hastighet",
+    INSIDE_STATS_SCORE: "Samlet poengsum",
+    INSIDE_STATS_SCORE_TEXT: "SCORE",
+
+    SEARCH_BUTTON: "Søk",
+
+    CURRENCY_SYMBOL: "kr",
+
+    KEYS_NO_KEYS: "Du har ikke gitt ut noen nøkler.",
+    KEYS_REMOVE: "Fjern nøkkel",
+    KEYS_SEARCH: "Navn eller kjøretøysskilt",
+    KEYS_FOOTER: ["Totalt av ", " nøkler"],
+
+    ACTIONBAR_TEXT: ["Du har", "sjanser igjen."]
+  },
+  RO: {
+    LOADING: "Loading...",
+
+    FINANCE_BUTTON: "Finance",
+    FINANCE_TITLE: "Finance vehicle",
+    FINANCE_LEFT: "Finance left: ",
+    FINANCE_LAST_PAYMENT: "Last payment: ",
+    FINANCE_NEXT_PAYMENT: "Next payment: ",
+    FINANCE_ACTION: "Pay",
+    FINANCE_DESCRIPTION:
+      "Input the amount of money you wish to put towards vehicle finance.",
+    FINANCE_SUBMIT: "Submit",
+    FINANCE_CLOSE: "Close",
+    FINANCE_LESS_THAN_ZERO: "You cannot send less than 0 money.",
+    FINANCE_INVALID_AMMOUNT: "You need to enter a valid amount.",
+
+    TRANSFER_BUTTON: "Transfera",
+    TRANSFER_TITLE: "Transfera Vehicul",
+    TRANSFER_TO: "Transfera catre",
+    TRANSFER_DESCRIPTION:
+      "Introdu ID-ul persoanei careia ii tranferi acest vehicul.",
+    TRANSFER_SUBMIT: "Afirma",
+    TRANSFER_CLOSE: "Inchide",
+    TRANSFER_INVALID_ID: "ID-ul jucatorului este invalid.",
+
+    IMPOUND_CIV_NOTIFICATION: "Taking out a vehicle costs $500.",
+    IMPOUND_SELECT: "Select an impound",
+    IMPOUND_SPAWN: "Spawn vehicle",
+    IMPOUND_RETURN: "Return to owner",
+    IMPOUND_NOTIFICATION: "This vehicle can only be returned by an officer",
+    IMPOUND_TIME: "hour(s)",
+
+    OUTSIDE_TAKEOUT: "Scoate",
+    OUTSIDE_RETURN: "Returneaza pentru $",
+    OUTSIDE_ENGINE: "Motor",
+    OUTSIDE_FUEL: "Carburant",
+    OUTSIDE_BODY: "Caroserie",
+    OUTSIDE_IMPOUND_NO_VEHICLES: "Nu sunt vehicule confiscate.",
+    OUTSIDE_NO_VEHICLES: "Nu ai nici un vehicul.",
+
+    INSIDE_UPGRADES: "Vehicle upgrades",
+    INSIDE_UPGRADES_ENGINE: "Engine",
+    INSIDE_UPGRADES_BRAKES: "Brakes",
+    INSIDE_UPGRADES_SUSPENSION: "Suspension",
+    INSIDE_UPGRADES_TRANSMISSION: "Transmission",
+    INSIDE_UPGRADES_TURBO: "Turbo",
+    INSIDE_STATS: "Vehicle statistics & health",
+    INSIDE_STATS_HANDLING: "Handling",
+    INSIDE_STATS_ACCELERATION: "Acceleration",
+    INSIDE_STATS_BRAKES: "Brakes",
+    INSIDE_STATS_BODY: "Body health",
+    INSIDE_STATS_ENGINE: "Engine health",
+    INSIDE_STATS_FUEL: "Fuel level",
+    INSIDE_STATS_SPEED: "Speed",
+    INSIDE_STATS_SCORE: "Overall score",
+    INSIDE_STATS_SCORE_TEXT: " SCORE",
+
+    SEARCH_BUTTON: "Căutare",
+
+    CURRENCY_SYMBOL: "$",
+    KEYS_NO_KEYS: "You haven't given out any keys.",
+    KEYS_REMOVE: "Remove key",
+    KEYS_SEARCH: "Name or vehicle plate",
+    KEYS_FOOTER: ["Total of ", " keys"],
     ACTIONBAR_TEXT: ["You have", "chance(s) left."]
   },
   PT: {
@@ -483,76 +623,6 @@ const LOCALES = {
     KEYS_FOOTER: ["Total of ", " keys"],
 
     ACTIONBAR_TEXT: ["You have", "chance(s) left."]
-  },
-  FR: {
-    LOADING: "Chargement...",
-
-    FINANCE_BUTTON: "Financer",
-    FINANCE_TITLE: "Financer le véhicule",
-    FINANCE_LEFT: "Financement restant : ",
-    FINANCE_LAST_PAYMENT: "Dernier paiement : ",
-    FINANCE_NEXT_PAYMENT: "Prochain paiement : ",
-    FINANCE_ACTION: "Payer",
-    FINANCE_DESCRIPTION:
-      "Input the amount of money you wish to put towards vehicle finance.",
-    FINANCE_SUBMIT: "Soumettre",
-    FINANCE_CLOSE: "Fermer",
-    FINANCE_LESS_THAN_ZERO: "Vous ne pouvez pas financer moins de 0$.",
-    FINANCE_INVALID_AMMOUNT: "Vous devez renseigner un montant valide.",
-
-    TRANSFER_BUTTON: "Transférer",
-    TRANSFER_TITLE: "Transférer le véhicule",
-    TRANSFER_TO: "Transférer à",
-    TRANSFER_DESCRIPTION:
-      "Renseigner l'ID du joueur ciblé",
-    TRANSFER_SUBMIT: "Soumettre",
-    TRANSFER_CLOSE: "Fermer",
-    TRANSFER_INVALID_ID: "ID du joueur invalide.",
-
-    IMPOUND_CIV_NOTIFICATION: "Sortir un véhicule coûte $500.",
-    IMPOUND_SELECT: "Selectionner une fourrière",
-    IMPOUND_SPAWN: "Spawn vehicule",
-    IMPOUND_RETURN: "Retourner au propriétaire",
-    IMPOUND_NOTIFICATION: "Ce véhicule ne peut être sorti que par une personne habilité",
-    IMPOUND_TIME: "heure(s)",
-
-    OUTSIDE_TAKEOUT: "Sortir",
-    OUTSIDE_RETURN: "Rapatrier pour $",
-    OUTSIDE_ENGINE: "Moteur",
-    OUTSIDE_FUEL: "Essence",
-    OUTSIDE_BODY: "Carrosserie",
-    OUTSIDE_IMPOUND_NO_VEHICLES: "Il n'y a aucun véhicule dans cette fourrière.",
-    OUTSIDE_NO_VEHICLES: "Vous n'avez aucun véhicule.",
-    OUTSIDE_SEARCH_PLACEHOLDER: "Recherche le véhicule par nom, garage ou immatriculation",
-    OUTSIDE_TOTAL_VEHICLES: "Véhicules garés : ",
-
-    INSIDE_UPGRADES: "Améliorations du véhicule",
-    INSIDE_UPGRADES_ENGINE: "Moteur",
-    INSIDE_UPGRADES_BRAKES: "Frein",
-    INSIDE_UPGRADES_SUSPENSION: "Suspension",
-    INSIDE_UPGRADES_TRANSMISSION: "Transmission",
-    INSIDE_UPGRADES_TURBO: "Turbo",
-    INSIDE_STATS: "Etat du véhicule",
-    INSIDE_STATS_HANDLING: "Handling",
-    INSIDE_STATS_ACCELERATION: "Acceleration",
-    INSIDE_STATS_BRAKES: "Freins",
-    INSIDE_STATS_BODY: "Etat de la carrosserie",
-    INSIDE_STATS_ENGINE: "Etat du moteur",
-    INSIDE_STATS_FUEL: "Niveau du réservoir",
-    INSIDE_STATS_SPEED: "Vitesse",
-    INSIDE_STATS_SCORE: "Performance globale",
-    INSIDE_STATS_SCORE_TEXT: " SCORE",
-
-    SEARCH_BUTTON: "Rechercher",
-
-    CURRENCY_SYMBOL: "$",
-
-    KEYS_NO_KEYS: "Vous n'avez donné aucune clé.",
-    KEYS_REMOVE: "Récuperer les clés",
-    KEYS_SEARCH: "Nom ou Immatriculation",
-    KEYS_FOOTER: ["Total de ", " clés"],
-
-    ACTIONBAR_TEXT: ["Vous avez", "essai(s) restant(s)."]
   },
   CUSTOM: {
     LOADING: "",
