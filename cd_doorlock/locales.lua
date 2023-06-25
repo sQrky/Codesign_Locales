@@ -1,7 +1,5 @@
 Locales = { 
     ['EN'] = { --english
-        ['saving_cached_data'] = 'Saving cached data please wait....',
-        ['cached_data_saved'] = 'Saved all cached data.',
         ['data_not_cached'] = 'Please try again in a few seconds...',
         ['camera_unavailable'] = 'Camera unavailable. Try again when you are closer to the door',
         ['door_locked'] = 'Door locked',
@@ -25,12 +23,17 @@ Locales = {
         ['draw3dtext_door_unlocked'] = 'Press [E] to lock',
         ['emoji_door_locked'] = '🔒',
         ['emoji_door_unlocked'] = '🔓',
-        
+        ['lockpick_door_prompt'] = 'Press [E] again to lockpick this door',
+        ['doorlock'] = 'Door Lock',
+        ['missing_lockpick'] = 'You are missing the required lockpick item',
+        ['cant_lockpick_while_in_vehicle'] = 'Get out of the vehicle to lockpick a door',
+        ['cant_lockpick_unlocked_door'] = 'This door is already unlocked',
+        ['door_cant_be_lockpicked'] = 'This door cannot be lockpicked',
+        ['lockdown_group'] = 'This building is currently in lockdown. All dorrs are locked!',
+        ['unlockdown_group'] = 'This building is no longer in lockdown. All doors are unlocked!',
     },
     
     ['DE'] = { --german
-        ['saving_cached_data'] = 'Sichere Daten. Bitte Warten....',
-        ['cached_data_saved'] = 'Zwischengespeicherte daten gesichert.',
         ['data_not_cached'] = 'Versuche es in ein paar Sekunden erneut...',
         ['camera_unavailable'] = 'Kamera nicht verfügbar, Bitte geh näher zur Tür!',
         ['door_locked'] = 'Tür Abgeschlossen',
@@ -54,11 +57,17 @@ Locales = {
         ['draw3dtext_door_unlocked'] = 'Press [E] to lock',
         ['emoji_door_locked'] = '🔒',
         ['emoji_door_unlocked'] = '🔓',
+        ['lockpick_door_prompt'] = 'Press [E] again to lockpick this door',
+        ['doorlock'] = 'Door Lock',
+        ['missing_lockpick'] = 'You are missing the required lockpick item',
+        ['cant_lockpick_while_in_vehicle'] = 'Get out of the vehicle to lockpick a door',
+        ['cant_lockpick_unlocked_door'] = 'This door is already unlocked',
+        ['door_cant_be_lockpicked'] = 'This door cannot be lockpicked',
+        ['lockdown_group'] = 'This building is currently in lockdown. All dorrs are locked!',
+        ['unlockdown_group'] = 'This building is no longer in lockdown. All doors are unlocked!',
     },
 
     ['NL'] = { --dutch
-        ['saving_cached_data'] = 'Bezig met opslaan van gegevens in cache, een ogenblik geduld...',
-        ['cached_data_saved'] = 'Alle gegevens in cache opgeslagen.',
         ['data_not_cached'] = 'Probeer het over een paar seconden opnieuw...',
         ['camera_unavailable'] = 'Camera niet beschikbaar. Probeer het opnieuw wanneer u dichter bij de deur bent',
         ['door_locked'] = 'Deur op slot',
@@ -82,5 +91,11 @@ Locales = {
         ['draw3dtext_door_unlocked'] = 'Druk op [E] om te vergrendelen',
         ['emoji_door_locked'] = '🔒',
         ['emoji_door_unlocked'] = '🔓',
+        ['missing_lockpick'] = 'You are missing the required lockpick item',
+        ['cant_lockpick_while_in_vehicle'] = 'Get out of the vehicle to lockpick a door',
+        ['cant_lockpick_unlocked_door'] = 'This door is already unlocked',
+        ['door_cant_be_lockpicked'] = 'This door cannot be lockpicked',
+        ['lockdown_group'] = 'This building is currently in lockdown. All dorrs are locked!',
+        ['unlockdown_group'] = 'This building is no longer in lockdown. All doors are unlocked!',
     },
 }
