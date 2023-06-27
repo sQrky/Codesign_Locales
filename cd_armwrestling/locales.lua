@@ -18,4 +18,14 @@ Locales = {
         ['command_delete_table'] = 'Verwijder de dichtsbijzijnde arm worstel tafel',
         ['table_not_found'] = 'Geen arm worstel tafel gevonden',
     },
+
+    ['PL'] = { --polish
+        ['join_game'] = 'Naciśnij [E], aby dołączyć do siłowania',
+        ['spam_to_win'] = 'Spamuj [E], aby wygrać',
+        ['wait_or_leave'] = 'Czekaj na innego rywala lub naciśnij [X] aby zakończyć',
+        ['game_full'] = 'Nie ma więcej przeciwników',
+        ['command_spawn_table'] = 'Postaw stół do siłowania na rękę',
+        ['command_delete_table'] = 'Schowa najbliższy stół do siłowania na rękę',
+        ['table_not_found'] = 'Nie znaleziono stołu do siłowania na rękę',
+    },
 }
